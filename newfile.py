@@ -5,4 +5,6 @@ def fibonacci(N):
         yield a
         a, b = b, a + b
 
-print(list(fibonacci(100)))
+fib = (list(fibonacci(100)))
+
+print(fib)
